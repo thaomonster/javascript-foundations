@@ -4,21 +4,21 @@ const Stark = require('../exercises/stark');
 
 describe('Direwolf', () => {
 
-  it.skip('should be a function', () => {
+  it('should be a function', () => {
     assert.isFunction(Direwolf);
   });
 
-  it.skip('should instantiate our good friend, Direwolf', () => {
+  it('should instantiate our good friend, Direwolf', () => {
     const direwolf = new Direwolf();
     assert.isObject(direwolf);
   });
 
-  it.skip('should have a name', () => {
+  it('should have a name', () => {
     const direwolf = new Direwolf('Nymeria');
     assert.equal(direwolf.name, 'Nymeria');
   });
 
-  it.skip('should have a default home of Beyond the Wall', () => {
+  it('should have a default home of Beyond the Wall', () => {
     const direwolf = new Direwolf('Lady');
 
     assert.equal(direwolf.name, 'Lady');
