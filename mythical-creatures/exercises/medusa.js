@@ -9,12 +9,10 @@ class Medusa {
     this.statues.push(victim)
 
     if (this.statues.length > 3) {
-        this.statues[0].stoned = false;
-        this.statues.shift();
-    }
+      this.statues[0].stoned = false;  
+      this.statues.shift();
+    };
   };
-
-
 };
 
 
